@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/17/2013 7:12:18 PM -->
+<GameData>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_MISSION_BUILD_CITY_DISABLED_HELP"/>
+			<Set Text="Cannot found City within six hexes of other cities."/>
+		</Update>
+	</Language_en_US>
+</GameData>

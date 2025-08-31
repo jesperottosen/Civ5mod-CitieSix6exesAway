@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/7/2012 10:54:31 PM -->
+<GameData>
+	<Defines>
+		<Update>
+			<Where Name="MIN_CITY_RANGE"/>
+			<Set Value="6"/>
+		</Update>
+	</Defines>  
+</GameData>
