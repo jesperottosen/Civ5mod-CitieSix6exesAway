@@ -43,6 +43,7 @@ An extension of the von Jahgmann Cities 4 Hexes Away v5 mod.</Description>
         <MaxVersion>999</MaxVersion>
       </Association>
     </ModBlockers>
+    <Homepage>https://github.com/jesperottosen/Civ5mod-CitieSix6exesAway</Homepage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>

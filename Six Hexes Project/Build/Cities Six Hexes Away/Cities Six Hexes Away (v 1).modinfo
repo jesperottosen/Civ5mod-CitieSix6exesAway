@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4bfa9afd-2b05-4d80-8bf6-21ee47ddfac0" version="1">
+  <Properties>
+    <Name>Cities Six Hexes Away</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Cities are too close - let's increase the distance so no city overlap.[NEWLINE]
+An extension of the von Jahgmann Cities 4 Hexe</Teaser>
+    <Description>Cities are too close - let's increase the distance so no city overlap.[NEWLINE]
+An extension of the von Jahgmann Cities 4 Hexes Away v5 mod.</Description>
+    <Authors>yepzer</Authors>
+    <SpecialThanks>von Jahgmann</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>https://github.com/jesperottosen/Civ5mod-CitieSix6exesAway</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks>
+    <Mod id="26c74205-8037-4d82-a954-fe80d149910e" minversion="5" maxversion="999" title="Cities 4 Hexes Away" />
+  </Blocks>
+  <Files>
+    <File md5="8446DF9464E426F902A91F5A98067853" import="0">Cities4_CIV5GameTextInfosJon.xml</File>
+    <File md5="C03406A5C3D6AF1AF7213FCC25AF8F83" import="0">Cities4_GlobalDefines.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Cities4_GlobalDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Cities4_CIV5GameTextInfosJon.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
