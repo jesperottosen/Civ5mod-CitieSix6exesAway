@@ -1,0 +1,3 @@
+Cities are too close - let's increase the distance so no city overlap.
+An extension of the von Jahgmann Cities 4 Hexes Away v5 mod.
+Blocks "Cities 4 Hexes Away" Mod
